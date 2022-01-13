@@ -1,0 +1,39 @@
+create table points
+(
+	Row_ID integer PRIMARY KEY,
+	location_point geometry,
+	locationname varchar(15)
+);
+insert into points values(1,(SELECT ST_MakePoint(-118.28538432401638,34.0205622506377)), 'TOMMY_TROJAN'
+);
+insert into points values(2,(SELECT ST_MakePoint(-118.28928382071285,34.019345803623835)), 'SAL'
+);
+insert into points values(3,(SELECT ST_MakePoint(-118.28670638410604,34.01894597205277)), 'MUDD_HALL'
+);
+insert into points values(4,(SELECT ST_MakePoint(-118.284114,34.024020)), 'USC_VILLAGE'
+);
+insert into points values(5,(SELECT ST_MakePoint(-118.28889529231776,34.02084271892348)), 'USC_VITERBI'
+);
+insert into points values(6,(SELECT ST_MakePoint(-118.287521913327,34.0208694302584)), 'HNB'
+);
+insert into points values(7,(SELECT ST_MakePoint(-118.286456851223,34.020827141388445)), 'USC_BOOKSTORE'
+);
+insert into points values(8,(SELECT ST_MakePoint(-118.28403236321658,34.02027510660883)), 'EDM_LIBRARY'
+);
+insert into points values(9,(SELECT ST_MakePoint(-118.28309962698329,34.02158669413378)), 'LEAVY_LIBRARY'
+);
+insert into points values(10,(SELECT ST_MakePoint(-118.28412892825637,34.0223329400125)), 'TAPER_HALL'
+);
+insert into points values(11,(SELECT ST_MakePoint(-118.28625070214183,34.02359047249489)), 'USC_SCHOOLOFCA'
+);
+insert into points values(12,(SELECT ST_MakePoint(-118.28852045360793,34.02279209814409)), 'BRITTINGHAM_F'
+);
+insert into points values(13,(SELECT ST_MakePoint(-118.28739484183052,34.03223031950047)), 'HOME'
+);
+
+
+
+SELECT g1.locationname, g2.locationname FROM points as g1, points as g2   
+WHERE g1.Row_ID <> g2.Row_ID AND (g1.Row_ID = 13)
+ORDER BY g1.Row_ID, ST_Distance(g1.location_point,g2.location_point)
+LIMIT 4;

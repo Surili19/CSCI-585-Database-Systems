@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>Tommy_Trojan</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28538432401638,34.0205622506377</coordinates></Point>
+</Placemark>
+<Placemark><name>SAL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28928382071285,34.019345803623835</coordinates></Point>
+</Placemark>
+<Placemark><name>MUDD_HALL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28670638410604,34.01894597205277</coordinates></Point>
+</Placemark>
+<Placemark><name>USC_Village</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284114,34.024020</coordinates></Point>
+</Placemark>
+<Placemark><name>USC_Viterbi</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28889529231776,34.02084271892348</coordinates></Point>
+</Placemark>
+<Placemark><name>HNB</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287521913327,34.0208694302584</coordinates></Point>
+</Placemark>
+<Placemark><name>USC_Bookstore</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286456851223,34.020827141388445</coordinates></Point>
+</Placemark>
+<Placemark><name>EDM_Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28403236321658,34.02027510660883</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavy_Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28309962698329,34.02158669413378</coordinates></Point>
+</Placemark>
+<Placemark><name>Taper_Hall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28412892825637,34.0223329400125</coordinates></Point>
+</Placemark>
+<Placemark><name>USC_SchoolofCA</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28625070214183,34.02359047249489</coordinates></Point>
+</Placemark>
+<Placemark><name>Brittingham_F</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28852045360793,34.02279209814409</coordinates></Point>
+</Placemark>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28739484183052,34.03223031950047</coordinates></Point>
+</Placemark>
+
+
+  
+<description>Convex Hull</description>
+    <Placemark id="track1">
+		
+        <name>path</name>
+	<LineString>
+        
+            <coordinates>
+		-118.28670638410604,34.01894597205277,50
+		-118.28928382071285,34.019345803623835,50
+		-118.28739484183052,34.03223031950047,50
+		-118.28309962698329,34.02158669413378,50
+		-118.28403236321658,34.02027510660883,50
+		-118.28670638410604,34.01894597205277,50
+            </coordinates>
+       	    </LineString>
+    </Placemark>
+<Style> 
+  <LineStyle>  
+   <color>#ffff0000</color>
+  </LineStyle> 
+ </Style>
+
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.28739484183052,34.03223031950047 
+   -118.28625070214183,34.02359047249489
+   -118.28739484183052,34.03223031950047
+  </coordinates>
+ </LineString>
+ 
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+  </LineStyle> 
+ </Style>
+</Placemark>
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.28739484183052,34.03223031950047 
+   -118.284114,34.024020
+   -118.28739484183052,34.03223031950047
+  </coordinates>
+ </LineString>
+ 
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+  </LineStyle> 
+ </Style>
+</Placemark>
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.28739484183052,34.03223031950047 
+   -118.28852045360793,34.02279209814409
+   -118.28739484183052,34.03223031950047
+  </coordinates>
+ </LineString>
+ 
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+  </LineStyle> 
+ </Style>
+</Placemark>
+<Placemark> 
+ <LineString>
+  <coordinates>
+   -118.28739484183052,34.03223031950047 
+   -118.28412892825637,34.0223329400125
+   -118.28739484183052,34.03223031950047
+  </coordinates>
+ </LineString>
+ 
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
+</Document></kml>
